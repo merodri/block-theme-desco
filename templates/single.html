@@ -1,17 +1,31 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
+<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull">
+	<!-- wp:cover {"url":"http://localhost/desco/wp-content/uploads/2025/06/title-bck-1024x295.webp","id":645,"dimRatio":50,"customOverlayColor":"#f6f6f7","isUserOverlayColor":false,"minHeight":150,"isDark":false,"sizeSlug":"large","style":{"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"},"top":{},"right":{},"left":{}}},"layout":{"type":"default"}} -->
+	<div class="wp-block-cover is-light"
+		style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;min-height:150px"><img
+			class="wp-block-cover__image-background wp-image-645 size-large" alt=""
+			src="http://localhost/desco/wp-content/uploads/2025/06/title-bck-1024x295.webp"
+			data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim"
+			style="background-color:#f6f6f7"></span>
+		<div class="wp-block-cover__inner-container">
+			<!-- wp:post-title {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"h1"} /-->
+		</div>
+	</div>
+	<!-- /wp:cover -->
+</div>
+<!-- /wp:group -->
+
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
-		<!-- wp:post-featured-image {"overlayColor":"contrast","dimRatio":50,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"calc(-1 * var(--wp--preset--spacing--50))"}}}} /-->
-		<!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /-->
+		<!-- wp:post-featured-image {"overlayColor":"contrast","dimRatio":50,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"calc(-1 * var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dspacing\u002d\u002d50))"}}}} /-->
 	</div>
 	<!-- /wp:group -->
 
 	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-	<!-- wp:template-part {"slug":"post-meta"} /-->
-	<!-- wp:template-part {"slug":"comments","tagName":"section"} /-->
 </main>
 <!-- /wp:group -->
 

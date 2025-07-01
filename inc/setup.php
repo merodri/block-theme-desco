@@ -25,8 +25,15 @@ function theme_setup() {
 	 * @link https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-support/#disabling-the-default-block-patterns
 	 */
 	remove_theme_support( 'core-block-patterns' );
+
+	register_block_pattern_category( 'desco', array( 
+		'label'       => __( 'Desco', 'desco' ),
+		'description' => __( 'Custom patterns for Theme Name.', 'desco' )
+	) );
+
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
+
 
 /**
  * Custom login logo
