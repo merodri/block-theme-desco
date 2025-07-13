@@ -11,3 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags:
 Text Domain: block-theme
 */
+.wp-block-separator {
+    min-width: 100%;
+    /* or */
+    min-height: 1px;
+}

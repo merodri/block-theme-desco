@@ -9,42 +9,34 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"categories":["Desco"],"patternName":"descotheme/front-mision","name":"Mision"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"0px"}},"backgroundColor":"light-grey","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-light-grey-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}},"textColor":"primary","fontSize":"h2"} -->
-<h2 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-h-2-font-size" style="margin-bottom:var(--wp--preset--spacing--60);font-style:normal;font-weight:700"><strong>Nuestra misión fundamental es</strong></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
+<!-- wp:media-text {"align":"full","mediaId":722,"mediaLink":"http://localhost/desco/?attachment_id=722","mediaType":"image","verticalAlignment":"center","backgroundColor":"light-grey"} -->
+<div class="wp-block-media-text alignfull is-stacked-on-mobile is-vertically-aligned-center has-light-grey-background-color has-background"><figure class="wp-block-media-text__media"><img src="http://localhost/desco/wp-content/uploads/2025/07/img-mision-1024x768.webp" alt="" class="wp-image-722 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"h2"} -->
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-h-2-font-size" style="font-style:normal;font-weight:700;text-transform:uppercase"><strong>Nuestra misión fundamental es</strong></h2>
+<!-- /wp:heading -->
 
-<!-- wp:list {"className":"is-style-desco-icon-list","fontSize":"small"} -->
-<ul class="wp-block-list is-style-desco-icon-list has-small-font-size"><!-- wp:list-item {"fontSize":"paragraph"} -->
-<li class="has-paragraph-font-size">Brindar apoyo a las comunidades</li>
+<!-- wp:separator {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"backgroundColor":"primary"} -->
+<hr class="wp-block-separator has-text-color has-primary-color has-alpha-channel-opacity has-primary-background-color has-background is-style-default" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"/>
+<!-- /wp:separator -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Brindar apoyo a las comunidades</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item {"fontSize":"paragraph"} -->
-<li class="has-paragraph-font-size">Atención integral a la familia</li>
+<!-- wp:list-item -->
+<li>Atención integral a la familia</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item {"fontSize":"paragraph"} -->
-<li class="has-paragraph-font-size">Salud</li>
+<!-- wp:list-item -->
+<li>Salud</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item {"fontSize":"paragraph"} -->
-<li class="has-paragraph-font-size">Formación y capacitación</li>
+<!-- wp:list-item -->
+<li>Formación y capacitación</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item {"fontSize":"paragraph"} -->
-<li class="has-paragraph-font-size">Fomentamos la cultura, el deporte y la recreación</li>
+<!-- wp:list-item -->
+<li>Fomentamos la cultura, el deporte y la recreación</li>
 <!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/img-mision.webp" alt="" style="border-radius:5px"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:list --></div></div>
+<!-- /wp:media-text -->
